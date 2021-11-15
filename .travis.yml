@@ -1,0 +1,12 @@
+services: mongodb
+cache: yarn
+language: node_js
+node_js:
+  - "16"
+  - "14"
+  - "12"
+install:
+  - yarn
+script:
+  - yarn test
+  - yarn test:e2e
