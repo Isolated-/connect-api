@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@core/core": [
+        "libs/core/src"
+      ],
+      "@core/core/*": [
+        "libs/core/src/*"
+      ],
+      "@external/external": [
+        "libs/external/src"
+      ],
+      "@external/external/*": [
+        "libs/external/src/*"
+      ],
+      "@crypto/crypto": [
+        "libs/crypto/src"
+      ],
+      "@crypto/crypto/*": [
+        "libs/crypto/src/*"
+      ]
+    }
+  }
+}

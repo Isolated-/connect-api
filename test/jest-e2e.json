@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@core/core/(.*)": "<rootDir>/../libs/core/src/$1",
+    "@core/core": "<rootDir>/../libs/core/src",
+    "@external/external/(.*)": "<rootDir>/../libs/external/src/$1",
+    "@external/external": "<rootDir>/../libs/external/src",
+    "@crypto/crypto/(.*)": "<rootDir>/../libs/crypto/src/$1",
+    "@crypto/crypto": "<rootDir>/../libs/crypto/src"
+  }
+}
